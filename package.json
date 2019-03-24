@@ -1,0 +1,17 @@
+{
+  "name": "time-and-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/time-and-weather-generator"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^6.1.0",
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0"
+  }
+}
